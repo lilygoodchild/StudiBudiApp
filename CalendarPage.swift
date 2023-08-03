@@ -96,7 +96,7 @@ struct CalendarPage: View {
                
                
                 Rectangle()
-                    .padding(.all, 33.0)
+                    .padding(.all, 10.0)
                     .foregroundColor(backgroundColor)
                 
             }.padding()
