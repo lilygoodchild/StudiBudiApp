@@ -63,7 +63,7 @@ struct HomePage: View {
                        
                         HStack {
                             
-                            NavigationLink(destination: Text("new page") ) {
+                            NavigationLink(destination: CalendarPage()) {
                                 Image(systemName: "calendar")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
@@ -75,7 +75,7 @@ struct HomePage: View {
                             }
                             
                             
-                            NavigationLink(destination: Text("new page 2")) {
+                            NavigationLink(destination: NewsPage()) {
                                 Image(systemName: "newspaper")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
@@ -85,7 +85,7 @@ struct HomePage: View {
                             }
                             
                             
-                            NavigationLink(destination: Text("new page 6")) {
+                            NavigationLink(destination: HomePage()) {
                                 Image(systemName: "house")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
@@ -100,8 +100,7 @@ struct HomePage: View {
                             
       //hi
                             
-                            
-                            NavigationLink(destination: Text("new page 3 ")) {
+                            NavigationLink(destination: ResourcesPage()) {
                                 Image("resourcesicon")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
