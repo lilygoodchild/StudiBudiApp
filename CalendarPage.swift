@@ -13,7 +13,7 @@ struct CalendarPage: View {
     
     var body: some View {
         
-        VStack(spacing: 40.0) {
+        VStack(spacing: 50.0) {
           
             VStack(spacing: -200.0){
             Text("Calendar")
