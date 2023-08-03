@@ -111,7 +111,7 @@ struct HomePage: View {
                                 
                             }
                             
-                            NavigationLink(destination: Text("new page 4")) {
+                            NavigationLink(destination: QuotesPage()) {
                             Image(systemName: "quote.bubble")
                                     
                                     .resizable(resizingMode: .stretch)
