@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD49A1682A7BDF9B007C1AD3 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49A1672A7BDF9B007C1AD3 /* HomePage.swift */; };
 		BD8A4C992A7A50CB005B473C /* NewsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A4C982A7A50CB005B473C /* NewsPage.swift */; };
 		BD8A4C9B2A7A50D7005B473C /* QuotesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A4C9A2A7A50D7005B473C /* QuotesPage.swift */; };
 		BD8A4C9D2A7A50E9005B473C /* CalendarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A4C9C2A7A50E9005B473C /* CalendarPage.swift */; };
 		BD8A4C9F2A7A50F9005B473C /* ResourcesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A4C9E2A7A50F9005B473C /* ResourcesPage.swift */; };
-		BD8A4CA12A7A511E005B473C /* JournalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A4CA02A7A511E005B473C /* JournalPage.swift */; };
 		BDCEEBDE2A78FB56003220C2 /* StudiBudiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCEEBDD2A78FB56003220C2 /* StudiBudiAppApp.swift */; };
 		BDCEEBE02A78FB56003220C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCEEBDF2A78FB56003220C2 /* ContentView.swift */; };
 		BDCEEBE22A78FB58003220C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCEEBE12A78FB58003220C2 /* Assets.xcassets */; };
@@ -19,11 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD49A1672A7BDF9B007C1AD3 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		BD8A4C982A7A50CB005B473C /* NewsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPage.swift; sourceTree = "<group>"; };
 		BD8A4C9A2A7A50D7005B473C /* QuotesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesPage.swift; sourceTree = "<group>"; };
 		BD8A4C9C2A7A50E9005B473C /* CalendarPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPage.swift; sourceTree = "<group>"; };
 		BD8A4C9E2A7A50F9005B473C /* ResourcesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesPage.swift; sourceTree = "<group>"; };
-		BD8A4CA02A7A511E005B473C /* JournalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPage.swift; sourceTree = "<group>"; };
 		BDCEEBDA2A78FB56003220C2 /* StudiBudiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudiBudiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCEEBDD2A78FB56003220C2 /* StudiBudiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudiBudiAppApp.swift; sourceTree = "<group>"; };
 		BDCEEBDF2A78FB56003220C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,10 +46,10 @@
 			isa = PBXGroup;
 			children = (
 				BD8A4C982A7A50CB005B473C /* NewsPage.swift */,
+				BD49A1672A7BDF9B007C1AD3 /* HomePage.swift */,
 				BD8A4C9A2A7A50D7005B473C /* QuotesPage.swift */,
 				BD8A4C9C2A7A50E9005B473C /* CalendarPage.swift */,
 				BD8A4C9E2A7A50F9005B473C /* ResourcesPage.swift */,
-				BD8A4CA02A7A511E005B473C /* JournalPage.swift */,
 				BDCEEBDC2A78FB56003220C2 /* StudiBudiApp */,
 				BDCEEBDB2A78FB56003220C2 /* Products */,
 			);
@@ -154,10 +154,10 @@
 			files = (
 				BD8A4C9D2A7A50E9005B473C /* CalendarPage.swift in Sources */,
 				BDCEEBE02A78FB56003220C2 /* ContentView.swift in Sources */,
-				BD8A4CA12A7A511E005B473C /* JournalPage.swift in Sources */,
 				BD8A4C9B2A7A50D7005B473C /* QuotesPage.swift in Sources */,
 				BD8A4C992A7A50CB005B473C /* NewsPage.swift in Sources */,
 				BD8A4C9F2A7A50F9005B473C /* ResourcesPage.swift in Sources */,
+				BD49A1682A7BDF9B007C1AD3 /* HomePage.swift in Sources */,
 				BDCEEBDE2A78FB56003220C2 /* StudiBudiAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
