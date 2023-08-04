@@ -38,7 +38,7 @@ struct ContentView: View {
                     
                     
                     
-                    Text("Hi, Welcome to Studi Buddi")
+                    Text("Hi, Welcome to Studi Budi")
                         .font(.title3)
                         .fontWeight(.regular)
                         .foregroundColor(Color.black)
